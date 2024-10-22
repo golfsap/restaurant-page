@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playwrite GB S", cursive;
+}
+
+body {
+    background-color: #f1faee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #457b9d;
+}
+
+h1 {
+    /* color: #1d3557; */
+    padding-top: 16px;
+}
+
+h2 {
+    padding-top: 20px;
+}
+
+nav {
+    display: flex;
+    /* background-color: aliceblue; */
+    width: 100vw;
+    justify-content: center;
+    padding-top: 6px;
+}
+
+nav button {
+    margin: 10px 5px;
+    padding: 5px 24px;
+    background-color: #a8dadc;
+    border: 2px solid #a8dadc;
+    border-radius: 10px;
+    color: #1d3557;
+}
+
+nav button:hover {
+    /* background-color: #a8dadc; */
+    border: 2px solid #1d3557;
+    cursor: pointer;
+    /* color: #1d3557; */
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+
+#content p {
+    text-align: center;
+}
+
+.images {
+    /* border: 1px solid black; */
+    margin-top: 20px;
+}
+
+.images img{
+    /* margin-top: 20px; */
+    border-radius: 10px;
+    width: 250px;
+    margin: 8px;
+}
